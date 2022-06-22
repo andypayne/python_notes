@@ -16,3 +16,9 @@ pipreqs --print
 
 TODO
 
+
+### black
+
+[black](https://github.com/psf/black) vim integration:
+
+https://black.readthedocs.io/en/stable/integrations/editors.html
