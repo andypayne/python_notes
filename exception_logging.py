@@ -2,7 +2,7 @@ import logging as log
 import traceback
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     log_format = "%(asctime)s [%(levelname)s] line %(lineno)d): %(message)s"
     log_level = log.INFO
     log.basicConfig(level=log_level, format=log_format)
@@ -34,3 +34,16 @@ if __name__ == '__main__':
         ZeroDivisionError: division by zero
         """
 
+    print("-" * 80)
+    log.info("log.warning with exc_info:")
+    try:
+        x = 1 / 0
+    except Exception:
+        log.warning("Encountered an exception.", exc_info=True)
+        """
+        2022-07-12 06:10:38,503 [ERROR] line 18): Encountered an exception.
+        Traceback (most recent call last):
+          File ".../exception_logging.py", line 18, in <module>
+            x = 1 / 0
+        ZeroDivisionError: division by zero
+        """
