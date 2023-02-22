@@ -12,6 +12,7 @@ pip install pipreqs
 pipreqs --print
 ```
 
+
 ### pigar
 
 TODO
@@ -24,3 +25,20 @@ TODO
 https://black.readthedocs.io/en/stable/integrations/editors.html
 
 The first time you edit a file and run `:Black`, the black plugin will run some setup code. Be sure to deactivate any existing python environments before doing that the first time, assuming you installed the black pip file globally.
+
+
+### pipenv
+
+[Installing:] https://pipenv.pypa.io/en/latest/install/#installing-pipenv
+
+```
+pip install --user pipenv
+```
+
+or
+
+```
+pip install --user pipx
+pipx install pipenv
+```
+
