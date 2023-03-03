@@ -29,6 +29,8 @@ The first time you edit a file and run `:Black`, the black plugin will run some 
 
 ### pipenv
 
+#### Install
+
 [Installing:] https://pipenv.pypa.io/en/latest/install/#installing-pipenv
 
 ```
@@ -42,3 +44,32 @@ pip install --user pipx
 pipx install pipenv
 ```
 
+#### Upgrade
+
+```
+pip install --user --upgrade pipenv
+```
+
+#### Use
+
+Install a package into a fresh project, and pipenv will automatically create a Pipfile for the project.
+
+```
+mkdir myproject
+cd myproject
+pipenv install <package>
+```
+
+Activate with:
+
+```
+pipenv shell
+```
+
+I use my [renv](https://github.com/andypayne/dotfiles-local/blob/master/aliases.local#L110) alias to activate the environment.
+
+Or run a command with:
+
+```
+pipenv run
+```
