@@ -66,3 +66,6 @@ wcwidth==0.2.5
 webencodings==0.5.1
 widgetsnbextension==4.0.3
 zipp==3.8.1
+pandas==2.0.1
+matplotlib==3.7.1
+matplotlib-inline==0.1.6
