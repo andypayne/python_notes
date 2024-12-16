@@ -1,4 +1,25 @@
 
+## Pyenv
+
+[https://github.com/pyenv/pyenv](pyenv) is a tool for managing multiple versions of Python.
+
+List of commands: [https://github.com/pyenv/pyenv/blob/master/COMMANDS.md](commands)
+
+Install on mac with homebrew:
+```
+brew update
+brew install pyenv
+```
+
+Install a version with:
+```
+pyenv install 3.10.4
+```
+
+Activate for a local project with:
+```
+pyenv local 3.10.4
+```
 
 ## Requirements
 
