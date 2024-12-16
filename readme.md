@@ -1,9 +1,9 @@
 
 ## Pyenv
 
-[https://github.com/pyenv/pyenv](pyenv) is a tool for managing multiple versions of Python.
+[pyenv](https://github.com/pyenv/pyenv) is a tool for managing multiple versions of Python.
 
-List of commands: [https://github.com/pyenv/pyenv/blob/master/COMMANDS.md](commands)
+List of commands: [commands](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md)
 
 Install on mac with homebrew:
 ```
